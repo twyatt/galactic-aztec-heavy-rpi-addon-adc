@@ -38,6 +38,7 @@ The ethernet ports adhere to the following [T-568B] wiring configuration:
 | 1   | R3    | Resistor 15kΩ 1/4W ±1% 0603                    |                     | [RHM15.0KADCT-ND]  | DigiKey  |
 
 
+[Galactic Aztec Raspberry Pi Add-on: Pressure Transducer Interface]: https://github.com/twyatt/galactic-aztec-rpi-addon-pressure
 [Galactic Aztec Heavy]: http://rocket.sdsu.edu/rockets#galactic-aztec-heavy
 [pressure transducer connector boards]: https://github.com/twyatt/galactic-aztec-pressure-transducer-connector
 [SDSU Rocket Eagle Libraries]: https://github.com/twyatt/SDSURocket-Eagle-Libraries
