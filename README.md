@@ -6,6 +6,37 @@ Custom Raspberry Pi Add-on ADC board (based on the [Galactic Aztec Raspberry Pi 
 
 Custom EagleCAD parts on this board can be found in the [SDSU Rocket Eagle Libraries].
 
+## Specifications
+| Input | IC      |
+|:-----:|:-------:|
+| A0    | ADS1114 |
+| A1    | ADS1114 |
+| A2    | ADS1114 |
+| A3    | ADS1114 |
+| A4    | ADS1100 |
+| A5    | ADS1100 |
+
+### ADS1114
+16-bit, 860 SPS ADC
+
+| PGA | Resolution (V) | Maximum Input (V) |
+|:---:|:---------------|:-----------------:|
+| 2/3 | 0.0001875      | 5.3               |
+| 1   | 0.000125       | 4.096             |
+| 2   | 0.0000625      | 2.048             |
+| 4   | 0.00003125     | 1.024             |
+| 8   | 0.000015625    | 0.512             |
+| 16  | 0.0000078125   | 0.256             |
+
+### ADS1100
+| Bits | Resolution (V) | Sample Rate (SPS) |
+|-----:|:---------------|:-----------------:|
+| 16   | 0.000152587891 | 8                 |
+| 15   | 0.000305175782 | 16                |
+| 14   | 0.000610351563 | 32                |
+| 12   | 0.00244140625  | 128               |
+_Resolution values listed with PGA=1_
+
 ## Wiring
 The ethernet ports adhere to the following [T-568B] wiring configuration:
 
