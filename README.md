@@ -35,6 +35,7 @@ Custom EagleCAD parts on this board can be found in the [SDSU Rocket Eagle Libra
 | 15   | 0.000305175782 | 16                |
 | 14   | 0.000610351563 | 32                |
 | 12   | 0.00244140625  | 128               |
+
 _Resolution values listed with PGA=1_
 
 ## Wiring
